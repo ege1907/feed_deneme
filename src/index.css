@@ -1,0 +1,68 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  
+}
+.hide{
+  display: none;
+}
+body{
+  width: 100%;
+  height: 100%;
+  background-color: #14171A;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+}
+h2{
+  font-size: 20px;
+}
+h3{
+  font-weight: 300;
+  opacity: 70%;
+}
+i:hover{
+  cursor: pointer;
+}
+.feed{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.feed-item{
+  padding: 60px;
+  width: 60%;
+  border: solid 1px gray;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.user-profile{
+  width: 70%;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.user-profile>img{
+  border-radius: 50px;
+  width: 70px;
+  aspect-ratio: 1/1;
+}
+.user-post{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.feed-image{
+  width: 100%;
+  border-radius: 10px;
+}
+.feed-buttons{
+  display: flex;
+  gap: 30px;
+}
